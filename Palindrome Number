@@ -1,0 +1,21 @@
+class Palindrome
+{
+  public static void main(String args[])
+  {
+    int n=12321, temp=n, s=0, a;
+    while(n>0)
+    {
+      a=n%10;
+      s=(s*10)+a;
+      n=n/10;
+    }
+    if(temp==s)
+    {
+      System.out.println("It is Palindrome");
+    }
+    else
+    {
+      Systme.out.println("It is not palindrome");
+    }
+ }
+}
