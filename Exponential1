@@ -1,0 +1,22 @@
+class Expo1
+{
+  public static void main(String args[])
+  {
+    int p, a=10, b=5;
+    p=Math.pow(a,b);
+    System.out.println(p);
+  }
+}
+//using loop
+class Expo1
+{
+  public static void main(String args[])
+  {
+    int p, i=1, b=5, a=10;
+    while(i<=b)
+    {
+      p=Math.pow(a,i);
+      i=i+1;
+    }
+ }
+}
