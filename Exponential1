@@ -18,5 +18,6 @@ class Expo1
       p=Math.pow(a,i);
       i=i+1;
     }
+    System.out.println(p);
  }
 }
