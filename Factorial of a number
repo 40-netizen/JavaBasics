@@ -1,0 +1,13 @@
+class Factorial
+{
+  public static void main(String args[])
+  {
+    int i=1, n=20,f=1;
+    while(i<=n)
+    {
+      f=f*i;
+      i=i+1;
+    }
+    System.out.println(f);
+ }
+}
