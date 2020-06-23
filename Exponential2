@@ -1,0 +1,29 @@
+class Expo1
+{
+  public static void main(String args[])
+  {
+    int p, a=10, b=5, c=20, q;
+    p=Math.pow(a,b);
+    q=Math.pow(p,c);
+    System.out.println(q);
+  }
+}
+//using loop
+class Expo1
+{
+  public static void main(String args[])
+  {
+    int p, q, i=1, j=1, b=5, a=10, c=20, q;
+    while(i<=b)
+    {
+      p=Math.pow(a,i);
+      i=i+1;
+    }
+    while(j<=c)
+    {
+      q=Math.pow(p,j);
+      j=j+1;
+    }
+    System.out.println(q);
+ }
+}
