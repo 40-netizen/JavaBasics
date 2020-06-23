@@ -1,0 +1,44 @@
+//using while loop
+class FirstTenPro
+{
+  public static void main(String args[])
+  {
+    int i=1,n=10,p=1;
+    while(i<=n)
+    {
+      p=p*i;
+      i=i+1;
+    }
+    System.out.println(p);
+ }
+}
+
+//using for loop
+class FirstTenPro
+{
+  public static void main(String args[])
+  {
+    int i,n=10,p=1;
+    for(i=1;i<=n;i++)
+    {
+      p=p*i;
+    }
+    System.out.println(p);
+ }
+}
+
+//using do-while loop
+class FirstTenPro
+{
+  public static void main(String args[])
+  {
+    int i=1,n=10,p=1;
+    do
+    {
+      p=p*i;
+      i=i+1;
+    }
+    while(i<=n);
+    System.out.println(p);
+ }
+}
