@@ -1,0 +1,22 @@
+class Perfect
+{
+  public static void main(String args[])
+  {
+    int i=1, n=200, s=0;
+    while(i<=n)
+    {
+      if(n%i==0)
+      {
+        s=s+i;
+      }
+    }
+    if(s==n)
+    {
+      System.out.println("It is a perfect number");
+    }
+    else
+    {
+      System.out.println("It is not a perfect numnber");
+    }
+  }
+}
