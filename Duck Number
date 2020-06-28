@@ -1,0 +1,20 @@
+class Duck
+{
+  public static void main(String args[])
+  {
+    int num=9045, store, count=0;
+    while(num>0)
+    {
+      store=num%10;
+      num=num/10;
+      if(store==0)
+      count=count+1;
+    }
+    if(count>0)
+    {
+      System.out.println("It is a duck number");
+    }
+    else
+    System.out.println("It is not a duck number");
+ }
+}
